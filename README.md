@@ -17,4 +17,4 @@ Parts are taken from:
 - SharpDX.Toolkit
     https://github.com/sharpdx/Toolkit
 
-![alt tag](https://github.com/mkmkmk/NoToolkitWpfApp.git/master/Doc/screenshot.png)    
+![alt tag](https://github.com/mkmkmk/NoToolkitWpfApp/Doc/screenshot.png)    
