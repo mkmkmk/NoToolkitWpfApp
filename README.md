@@ -1,10 +1,10 @@
 # NoToolkitWpfApp
-============
-Created by Mariusz K.
-mkre@op.pl
-============
 
-This is a demo that shows how to run SharpDX 3.0 hosted in WPF control without SharpDX.Toolkit.
+Created by Mariusz K.
+
+mkre@op.pl
+
+##This is a demo that shows how to run SharpDX 3.0 hosted in WPF control without SharpDX.Toolkit.
 
 Parts are taken from:
 
