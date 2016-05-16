@@ -1,0 +1,22 @@
+﻿<Window x:Class="NoToolkitWpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:noToolkitWpfApp="clr-namespace:NoToolkitWpfApp"
+        Title="WpfWindow" Height="550" Width="725" MinHeight="150" MinWidth="350" WindowStartupLocation="CenterScreen" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150*"/>
+            <ColumnDefinition Width="673*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <CheckBox Name="CheckBoxLight" IsChecked="True" IsThreeState="False" Content="Light"/>
+
+
+        </StackPanel>
+        <TabControl Grid.Column="1">
+            <TabItem Header="WPF" Background="Black">
+                <noToolkitWpfApp:DxElement x:Name="SharpDxElement" />
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
