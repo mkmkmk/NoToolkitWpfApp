@@ -8,11 +8,13 @@ This is a demo that shows how to run SharpDX 3.0 hosted in WPF control without S
 
 Parts are taken from:
 
-SharpDX Samples 
+- SharpDX Samples 
     http://github.com/sharpdx/SharpDX.git
     
-SharpDX DirectX11 Tutorial 
+- SharpDX DirectX11 Tutorial 
     http://www.notjustcode.it 
     
-SharpDX.Toolkit
+- SharpDX.Toolkit
     https://github.com/sharpdx/Toolkit
+
+![alt tag](https://github.com/mkmkmk/NoToolkitWpfApp.git/master/Doc/screenshot.png)    
