@@ -4,7 +4,7 @@ Created by Mariusz K. (mkre@op.pl)
 
 <center>![img!](Doc/screenshot.png)</center>
 
-##This is a demo that shows how to run SharpDX 3.0 hosted in WPF without SharpDX.Toolkit.
+###This is a demo that shows how to run SharpDX 3.0 hosted in WPF without SharpDX.Toolkit.
 
 ##Parts are taken from:
 
