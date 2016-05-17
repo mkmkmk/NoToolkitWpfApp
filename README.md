@@ -1,8 +1,8 @@
 # NoToolkitWpfApp
 
-Created by Mariusz K.
+Created by Mariusz K. (mkre@op.pl)
 
-mkre@op.pl
+<center>![img!](Doc/screenshot.png)</center>
 
 ##This is a demo that shows how to run SharpDX 3.0 hosted in WPF control without SharpDX.Toolkit.
 
@@ -18,8 +18,19 @@ Parts are taken from:
     https://github.com/sharpdx/Toolkit
 
     
-![img!](Doc/screenshot.png)    
+Requires:
+- .Net 4.5
+- DirectX11
+- SharpDX 3.0+ (via NuGet)
+
+Features:
+- WPF application
+- no Sharp.Toolkit required
+- directional light implemented by shader
+- compilation of shaders during runtime
+ 
+
 
 
 #Licensing
-##WTFPL
+- WTFPL
