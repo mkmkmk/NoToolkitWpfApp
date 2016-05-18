@@ -96,7 +96,7 @@ namespace NoToolkitWpfApp
                         new InputElement("NORMAL",0, SharpDX.DXGI.Format.R32G32B32A32_Float, 32, 0),
                     });
 
-            _sphere = new Sphere(1f, 4, true);
+            _sphere = new Sphere(1f, 4);
 
             var sphereVert = 
                 _sphere.Vertices.SelectMany(el => 
@@ -104,7 +104,7 @@ namespace NoToolkitWpfApp
                     {
                         new Vector4(el.Position, 1f), 
                         Color.LawnGreen.ToVector4(), 
-                        new Vector4(el.Normal, 1f)
+                        new Vector4(el.Normal, 0f)
                     }).ToArray();
 
             _sphereVertBuffer = Buffer.Create(_manager.Device, BindFlags.VertexBuffer, sphereVert);

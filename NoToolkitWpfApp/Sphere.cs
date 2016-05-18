@@ -76,7 +76,7 @@ namespace NoToolkitWpfApp
             Vertices = vertices;
             Indices = indices.Select(el => (ushort)el).ToArray();
 
-            if (!toLeftHanded)
+            if (toLeftHanded)
             {
                 for (int i1 = 0; i1 < Indices.Length; i1 += 3)
                 {
