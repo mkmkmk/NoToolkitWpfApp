@@ -1,6 +1,6 @@
 # NoToolkitWpfApp
 
-Created by Mariusz K. (mkre@op.pl)
+Created by Mariusz K. (mkre()op.pl)
 
 <center>![img!](Doc/screenshot.png)</center>
 
